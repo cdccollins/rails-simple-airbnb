@@ -1,0 +1,49 @@
+.card {
+  width: 350px;
+  height: 300px;
+  h3 {
+    font-size: 30px;
+  }
+  h4 {
+    font-size: 15px;
+  }
+}
+
+.card .content {
+  background-color: #F8F9FA;
+  padding: 10px;
+  height: 250px;
+  position: relative;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+}
+
+.card .top-content {
+  position: absolute;
+  top: 0;
+  height: 120px;
+  padding: 10px 20px;
+}
+
+.card .icon-content {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: 150px;
+  width: 150px;
+}
+
+.card .icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card .bottom-card {
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  padding: 10px 20px;
+}

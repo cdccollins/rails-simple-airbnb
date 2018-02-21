@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-md-offset-2">
+      <h1>Add a new flat</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 col-sm-10 col-md-8 col-md-offset-2">
+      <%= simple_form_for (@flat) do |f| %>
+        <%= f.input :name %>
+        <%= f.input :description %>
+        <%= f.input :address %>
+        <%= f.input :price_per_night %>
+        <%= f.input :number_of_guests %>
+        <%= f.button :submit %>
+      <% end %>
+    </div>
+  </div>
+</div>
